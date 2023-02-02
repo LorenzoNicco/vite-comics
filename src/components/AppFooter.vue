@@ -14,6 +14,7 @@
             <div>CONTENT</div>
         </div>
     </section>
+
     <footer>
         <div class="top-footer">
             <div class="container">
@@ -153,64 +154,6 @@
     </footer>
 </template>
 
-<style scoped>
-    .blue-section {
-        background-color: #0282f9;
-    }
-
-    .container-small {
-        width: 1000px;
-        height: 6rem;
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        color: white;
-    }
-
-    
-    .container {
-        max-width: 1200px;
-        height: 100%;
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .top-footer {
-        background-image: url("../assets/img/vue-dc-comics-1/img/footer-bg.jpg");
-        height: calc(100vh - 22rem);
-    }
-
-    .bottom-footer {
-        background-color: #303030;
-        height: 5rem;
-    }
-
-    .end-footer {
-        background-color: #222222;
-        height: 1rem;
-    }
-
-    .menu-side {
-        display: flex;
-    }
-
-    h3 {
-        color: white;
-    }
-
-    a {
-        color: white;
-        text-decoration: none;
-    }
-
-    .logo-side {
-        height: 100%;
-        object-fit: contain;
-    }
-
-    .logo-side img {
-        height: 100%;
-    }
+<style lang="scss" scoped>
+    @use "../styles/partials/footerStyle.scss";
 </style>

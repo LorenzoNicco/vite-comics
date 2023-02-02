@@ -12,18 +12,6 @@
     </main>
 </template>
 
-<style scoped>
-    main {
-        background-color: black;
-    }
-
-    .container {
-        height: 5rem;
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-
-    span {
-        color: white;
-    }
+<style lang="scss" scoped>
+ @use "../styles/partials/mainStyle.scss"
 </style>
