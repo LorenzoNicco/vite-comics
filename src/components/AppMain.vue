@@ -7,7 +7,7 @@
 <template>
     <main>
         <div class="container">
-            <span>-->Content goes here</span>
+            <h3>-->Content goes here</h3>
         </div>
     </main>
 </template>

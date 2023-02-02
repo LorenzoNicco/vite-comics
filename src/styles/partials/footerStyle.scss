@@ -9,6 +9,16 @@
         justify-content: space-between;
         align-items: center;
         color: white;
+
+        img {
+            height: 2rem;
+            vertical-align: middle;
+        }
+
+        span {
+            vertical-align: middle;
+            margin-left: 0.5rem;
+        }
     }
 }
 .container {
@@ -25,16 +35,32 @@
 
     .menu-side {
         display: flex;
+        padding: 1rem;
+
+        .nav-2 {
+            margin-top: 1rem;
+        }
+
+        .nav-3,
+        .nav-4 {
+            margin-left: 2rem;
+        }
 
         h3 {
             color: white;
-
         }
 
-        a {
-            color: white;
-            text-decoration: none;
+        ul {
+            list-style: none;
+
+            a {
+                color: lightgray;
+                text-decoration: none;
+                font-size: 0.7rem;
+            }
         }
+
+
     }
 
     .logo-side {

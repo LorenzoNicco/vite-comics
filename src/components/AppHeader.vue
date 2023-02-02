@@ -1,6 +1,21 @@
 <script>
 export default {
-    name: "AppHeader"
+    name: "AppHeader",
+    data () {
+        return {
+            headerNav: ["CHARACTERS", 
+                "COMICS", 
+                "MOVIES", 
+                "TV", 
+                "GAMES", 
+                "COLLECTIBLES",
+                "VIDEOS", 
+                "FANS", 
+                "NEWS", 
+                "SHOP"
+            ]
+        }
+    }
 }
 </script>
 
@@ -13,35 +28,8 @@ export default {
 
             <nav>
                 <ul>
-                    <li>
-                        <a href="#">MENU</a>
-                    </li>
-                    <li>
-                        <a href="#">MENU</a>
-                    </li>
-                    <li>
-                        <a href="#">MENU</a>
-                    </li>
-                    <li>
-                        <a href="#">MENU</a>
-                    </li>
-                    <li>
-                        <a href="#">MENU</a>
-                    </li>
-                    <li>
-                        <a href="#">MENU</a>
-                    </li>
-                    <li>
-                        <a href="#">MENU</a>
-                    </li>
-                    <li>
-                        <a href="#">MENU</a>
-                    </li>
-                    <li>
-                        <a href="#">MENU</a>
-                    </li>
-                    <li>
-                        <a href="#">MENU</a>
+                    <li v-for="item in headerNav">
+                        <a href="#">{{ item }}</a>
                     </li>
                 </ul>
             </nav>
