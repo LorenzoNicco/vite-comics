@@ -11,18 +11,18 @@ export default {
   },
   data() {
     return {
-      
+
     }
   }
 }
 </script>
 
 <template>
-    <AppHeader />
+  <AppHeader />
 
-    <AppMain />
+  <AppMain />
 
-    <AppFooter />
+  <AppFooter />
 </template>
 
 <style>

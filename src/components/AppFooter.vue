@@ -124,16 +124,32 @@
                 </div>
 
                 <div class="logo-side">
-                    
+                    <img src="../assets/img/vue-dc-comics-1/img/dc-logo-bg.png" alt="">
                 </div>
             </div>
         </div>
 
         <div class="bottom-footer">
+            <div class="container">
+                <div>
+                    <button>SIGN-UP NOW!</button>
+                </div>
 
+                <nav>
+                    <button>
+                        FOLLOW US
+                    </button>
+
+                    <button>ICON</button>
+                    <button>ICON</button>
+                    <button>ICON</button>
+                    <button>ICON</button>
+                    <button>ICON</button>
+                </nav>
+            </div>
         </div>
 
-        <div class="end-footer" -->></div>
+        <div class="end-footer"></div>
     </footer>
 </template>
 
@@ -155,6 +171,7 @@
     
     .container {
         max-width: 1200px;
+        height: 100%;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
@@ -186,5 +203,14 @@
     a {
         color: white;
         text-decoration: none;
+    }
+
+    .logo-side {
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .logo-side img {
+        height: 100%;
     }
 </style>
