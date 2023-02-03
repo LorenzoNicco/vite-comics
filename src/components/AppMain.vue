@@ -6,8 +6,12 @@
 
 <template>
     <main>
+        <div class="jumbotron">
+            <img src="../assets/img/vue-dc-comics-1/img/jumbotron.jpg" alt="">
+        </div>
+
         <div class="container">
-            <h3>-->Content goes here</h3>
+            <h3>CURRENT SERIES</h3>
         </div>
     </main>
 </template>

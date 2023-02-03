@@ -1,5 +1,19 @@
+@use "./variables.scss" as *;
+
 main {
     background-color: black;
+
+    .jumbotron {
+        height: 20rem;
+        width: 100%;
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: top;
+        }
+    }
 
     .container {
         height: 5rem;
@@ -10,6 +24,10 @@ main {
 
         h3 {
             color: white;
+            background-color: $primaryColor;
+            padding: 1rem 2rem;
+            position: relative;
+            bottom: 50%;
         }
     }
 }
