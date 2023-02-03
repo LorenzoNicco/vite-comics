@@ -13,14 +13,18 @@
         align-items: center;
         color: white;
 
-        img {
-            height: 2rem;
-            vertical-align: middle;
-        }
+        .icons {
+            cursor: pointer;
 
-        span {
-            vertical-align: middle;
-            margin-left: 0.5rem;
+            img {
+                height: 2rem;
+                vertical-align: middle;
+            }
+    
+            span {
+                vertical-align: middle;
+                margin-left: 0.5rem;
+            }
         }
     }
 }
@@ -87,6 +91,7 @@
         color: white;
         border: 2px solid $primaryColor;
         padding: 1rem;
+        cursor: pointer;
     }
 
     .follow-up-btn {
@@ -94,6 +99,7 @@
         border: none;
         color: $primaryColor;
         padding: 1rem;
+        cursor: pointer;
     }
 
     .icon-btn {

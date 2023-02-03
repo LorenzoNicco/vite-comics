@@ -101,6 +101,8 @@
              :src="comic.thumb"
              :title="comic.series"
              />
+
+            <button>LOAD MORE</button>
         </div>
     </main>
 </template>
