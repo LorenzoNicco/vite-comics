@@ -135,19 +135,19 @@
                     </button>
 
                     <button class="icon-btn">
-                        ICON
+                        <font-awesome-icon icon="fa-brands fa-facebook-f" />
                     </button>
                     <button class="icon-btn">
-                        ICON
+                        <font-awesome-icon icon="fa-brands fa-twitter" />
                     </button>
                     <button class="icon-btn">
-                        ICON
+                        <font-awesome-icon icon="fa-brands fa-youtube" />
                     </button>
                     <button class="icon-btn">
-                        ICON
+                        <font-awesome-icon icon="fa-brands fa-pinterest-p" />
                     </button>
                     <button class="icon-btn">
-                        ICON
+                        <font-awesome-icon icon="fa-solid fa-location-dot" />
                     </button>
                 </nav>
             </div>

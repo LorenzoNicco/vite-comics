@@ -1,5 +1,8 @@
+@use "./variables.scss" as *;
+@use "./mixins.scss" as *;
+
 .blue-section {
-    background-color: #0282f9;
+    background-color: $primaryColor;
 
     .container-small {
         width: 1000px;
@@ -31,7 +34,6 @@
 
 .top-footer {
     background-image: url("../assets/img/vue-dc-comics-1/img/footer-bg.jpg");
-    height: calc(100vh - 22rem);
 
     .menu-side {
         display: flex;
@@ -67,8 +69,7 @@
         height: 100%;
         
         img {
-            height: 100%;
-            object-fit: contain;
+            height: 16rem;
         }
     }
 }
@@ -84,15 +85,19 @@
     .sign-up-btn {
         background-color: transparent;
         color: white;
-        border: 2px solid #0282f9;
+        border: 2px solid $primaryColor;
         padding: 1rem;
     }
 
     .follow-up-btn {
         background-color: transparent;
         border: none;
-        color: #0282f9;
+        color: $primaryColor;
         padding: 1rem;
+    }
+
+    .icon-btn {
+        @include iconBtn;
     }
 }
 

@@ -3,16 +3,57 @@ export default {
     name: "AppHeader",
     data () {
         return {
-            headerNav: ["CHARACTERS", 
-                "COMICS", 
-                "MOVIES", 
-                "TV", 
-                "GAMES", 
-                "COLLECTIBLES",
-                "VIDEOS", 
-                "FANS", 
-                "NEWS", 
-                "SHOP"
+            headerNav: [
+                {
+                    link: "#",
+                    label: "CHARACTERS",
+                    active: false
+                },
+                {
+                    link: "#",
+                    label: "COMICS",
+                    active: false
+                },
+                {
+                    link: "#",
+                    label: "MOVIES",
+                    active: false
+                },
+                {
+                    link: "#",
+                    label: "TV",
+                    active: false
+                },
+                {
+                    link: "#",
+                    label: "GAMES",
+                    active: false
+                },
+                {
+                    link: "#",
+                    label: "COLLECTIBLES",
+                    active: false
+                },
+                {
+                    link: "#",
+                    label: "VIDEOS",
+                    active: false
+                },
+                {
+                    link: "#",
+                    label: "FANS",
+                    active: false
+                },
+                {
+                    link: "#",
+                    label: "NEWS",
+                    active: false
+                },
+                {
+                    link: "#",
+                    label: "SHOP",
+                    active: false
+                },
             ]
         }
     }
@@ -29,7 +70,7 @@ export default {
             <nav>
                 <ul>
                     <li v-for="item in headerNav">
-                        <a href="#">{{ item }}</a>
+                        <a :href="item.link">{{ item.label }}</a>
                     </li>
                 </ul>
             </nav>
