@@ -56,6 +56,15 @@ export default {
                 },
             ]
         }
+    },
+    methods: {
+        activeAssignation(item) {
+            for (let i = 0; i < this.headerNav.length; i++) {
+                this.headerNav[i].active = false;
+            }
+            
+            item.active = true;
+        }
     }
 }
 </script>
@@ -70,7 +79,11 @@ export default {
             <nav>
                 <ul>
                     <li v-for="item in headerNav">
-                        <a :href="item.link">{{ item.label }}</a>
+                        <a 
+                         :href="item.link"
+                         @click="activeAssignation(item)"
+                         :class="{'active': item.active == true}"
+                        >{{ item.label }}</a>
                     </li>
                 </ul>
             </nav>
