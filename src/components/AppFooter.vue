@@ -126,19 +126,29 @@
         <div class="bottom-footer">
             <div class="container">
                 <div>
-                    <button>SIGN-UP NOW!</button>
+                    <button class="sign-up-btn">SIGN-UP NOW!</button>
                 </div>
 
                 <nav>
-                    <button>
+                    <button class="follow-up-btn">
                         FOLLOW US
                     </button>
 
-                    <button>ICON</button>
-                    <button>ICON</button>
-                    <button>ICON</button>
-                    <button>ICON</button>
-                    <button>ICON</button>
+                    <button class="icon-btn">
+                        ICON
+                    </button>
+                    <button class="icon-btn">
+                        ICON
+                    </button>
+                    <button class="icon-btn">
+                        ICON
+                    </button>
+                    <button class="icon-btn">
+                        ICON
+                    </button>
+                    <button class="icon-btn">
+                        ICON
+                    </button>
                 </nav>
             </div>
         </div>
