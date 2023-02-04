@@ -8,3 +8,15 @@
     margin-left: 0.5rem;
     cursor: pointer;
 }
+
+@mixin containerBase {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+@mixin buttonBase {
+    background-color: transparent;
+    padding: 1rem;
+    cursor: pointer;
+}

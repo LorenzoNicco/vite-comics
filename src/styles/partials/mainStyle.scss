@@ -1,4 +1,5 @@
 @use "./variables.scss" as *;
+@use "./mixins.scss" as *;
 
 main {
     background-color: black;
@@ -6,19 +7,14 @@ main {
     .jumbotron {
         height: 20rem;
         width: 100%;
-
-        img {
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
-            object-position: top;
-        }
+        background-image: url('../src/assets/img/vue-dc-comics-1/img/jumbotron.jpg');
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
     }
 
     .container {
-        max-width: 1200px;
-        margin: 0 auto;
-        display: flex;
+        @include containerBase;
         flex-wrap: wrap;
         position: relative;
         padding: 2rem;

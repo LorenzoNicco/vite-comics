@@ -89,9 +89,7 @@
 
 <template>
     <main>
-        <div class="jumbotron">
-            <img src="../assets/img/vue-dc-comics-1/img/jumbotron.jpg" alt="">
-        </div>
+        <div class="jumbotron"></div>
 
         <div class="container">
             <h3>CURRENT SERIES</h3>
@@ -100,7 +98,7 @@
              v-for="comic in comicsData"
              :src="comic.thumb"
              :title="comic.series"
-             />
+            />
 
             <button>LOAD MORE</button>
         </div>
@@ -108,5 +106,5 @@
 </template>
 
 <style lang="scss" scoped>
- @use "../styles/partials/mainStyle.scss"
+    @use "../styles/partials/mainStyle.scss";
 </style>

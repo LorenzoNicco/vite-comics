@@ -1,16 +1,15 @@
 @use "./variables.scss" as *;
+@use "./mixins.scss" as *;
 
 header {
     background-color: white;
 }
 
 .container {
-    display: flex;
+    @include containerBase;
     justify-content: space-between;
     align-items: center;
     height: 5rem;
-    max-width: 1200px;
-    margin: 0 auto;
 
     .logo-container {
         height: 4rem;
